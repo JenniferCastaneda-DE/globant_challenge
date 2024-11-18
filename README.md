@@ -15,3 +15,5 @@ Later this API will fire lambda functions that will do the validations of each b
 
 
 ![image](https://github.com/user-attachments/assets/174b5471-9d47-46f2-8d7e-06cfd8dbdf02)
+
+Next, the idea was to create the endpoints to connect Power BI to the MYSQL moto and create a bar chart and a dynamic table for the reports requested by the business.
