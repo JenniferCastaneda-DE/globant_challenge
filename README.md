@@ -7,7 +7,7 @@ The second part consists of creating two endpoints to be able to consult two rep
 
 
 
-**Solution**
+***Solution***
 
 I decided to create the following architecture, which uses 100% cloud services. First, the files are uploaded to s3, then an object creation notification is generated in s3 and this notification triggers a lambda that will start sending the data by batches to the REST API created in API Gateway. The requests made to the API will be the same amount of batches that come out after defining the batch size. The endpoint containing the /migrate method was defined for this task.
 
